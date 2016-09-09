@@ -1,0 +1,117 @@
+{
+    "isSuccess": true,
+    "data": {
+        "agrList": [
+                    {
+                    "id": "102806",
+                    "name": "图文咨询",
+                    "icon": "http://upyun.thedoc.cn/cdn/c_home_page/btn-tuwen.png",
+                    "link": "http://192.168.0.215/h5/activity/addService/dhzx_B2.html?id=100012",
+                    "text": "desc1",
+                    "title": "图文咨询",
+                    "priceText": "免费",
+                    "isChat": true,
+                    "showCall": false,
+                    "lineCount": 0,
+                    "textColor": "#d14479",
+                    "hideTime": false,
+                    "seq": "100",
+                    "autodiagnosisFlg": false,
+                    "tagType": "TWZX",
+                    "price": {
+                        "max":"100",
+                        "min":"80"
+                    },
+                    "enabled": true,
+                    "created": 1449662978000,
+                    "updated": 1449662978000
+                    },
+                    {
+                    "id": "102807",
+                    "name": "电话咨询",
+                    "icon": "http://upyun.thedoc.cn/cdn/c_home_page/btn_phone.png",
+                    "link": "http://192.168.0.215/h5/activity/addService/dhzx_B2.html?id=100011&home_telconsult_d",
+                    "text": "desc1",
+                    "title": "电话咨询",
+                    "priceText": "10元",
+                    "isChat": false,
+                    "showCall": false,
+                    "lineCount": 0,
+                    "textColor": "#d14479",
+                    "hideTime": false,
+                    "seq": "90",
+                    "autodiagnosisFlg": false,
+                    "tagType": "DHZX",
+                    "price": {
+                        "max":"100",
+                        "min":"80"
+                    },
+                    "enabled": true,
+                    "created": 1449647293000,
+                    "updated": 1449647293000
+                    }
+                    ],
+        "signList": {
+            "id": "1832",
+            "memberId": "com.medishare.manis.domain.member.Doctor_1832",
+            "portrait": "http://192.168.0.213:8082/img/f7783d3a-f3d9-41e3-85d6-fbaf2f8c2aa6.jpg",
+            "inService": true,
+            "doctorType": "1",
+            "username": "13641955723",
+            "realname": "jacky_medishare",
+            "gender": "男",
+            "titleType": "3",
+            "hospitalId": "4535",
+            "departmentId": "11",
+            "description": "ddddesc",
+            "provinceId": "7",
+            "cityId": "9",
+            "districtId": "3",
+            "specialty": [
+                          {
+                          "id": "1083",
+                          "layer": 2,
+                          "parentId": "1003",
+                          "name": "阴道炎",
+                          "description": "",
+                          "tags": "",
+                          "path": "0,1003"
+                          },
+                          {
+                          "id": "1082",
+                          "layer": 2,
+                          "parentId": "1002",
+                          "name": "前列腺增生",
+                          "description": "",
+                          "tags": "",
+                          "path": "0,1002"
+                          },
+                          {
+                          "id": "1081",
+                          "layer": 2,
+                          "parentId": "1002",
+                          "name": "前列腺炎",
+                          "description": "",
+                          "tags": "",
+                          "path": "0,1002"
+                          }
+                          ],
+            "certifies": [
+                          "aa",
+                          "bb"
+                          ],
+            "created": 1448962985000,
+            "updated": 1448962985000,
+            "countContracts": "256",
+            "rate": "3.0",
+            "isPerfect": false,
+            "isSign": false,
+            "unReadNum": 0,
+            "joinStatus": "0",
+            "pushKey": "3ba52704d7cf8966441b455a80ab02097f6dad6b"
+        },
+        "homeBarImageUrl": "http://portraitjs.b0.upaiyun.com/img/de7d2391-af75-4bc7-886c-738be2863c22.png",
+        "desc": "未签约，仅提供图文咨询服务"
+    },
+    "type": "JSONPatient"
+}

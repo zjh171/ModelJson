@@ -1,0 +1,42 @@
+/service/personal/user/doUserLogin/0
+=>服务名 +版本号
+
+成功:
+第1种 返回对象
+{
+    "errorCode": "0",
+    "errorMessage": "",
+    "serialId":"asdfljlowfeout",
+    "user": {
+        "userPwd": "123456", //用户密码
+        "userId": "14511bd6a5ad477e9fb7391900de2a50", //用户id
+    }
+}
+
+第2种 返回数组
+{
+    "errorCode": "0",
+    "errorMessage": "",
+    "serialId":"asdfljlowfeout",
+    "users": [{
+              "userPwd": "123456", //用户密码
+              "userId": "14511bd6a5ad477e9fb7391900de2a50", //用户id
+              },
+              {
+              "headImage": "", //用户头像
+              "userPwd": "123456", //用户密码
+              "userId": "14511bd6a5ad477e9fb7391900de2a50", //用户id
+              }],
+pager:{
+    "current":"4",
+    "hasNextPage":"1"
+    "total":"40",
+}
+}
+
+失败:
+{
+    "errorCode": "10002",
+    "serialId":"asdfljlowfeout",
+    "errorMessage": "密码不正确！"
+}
